@@ -1,3 +1,7 @@
+provider "aws" {
+  region                   = "ap-northeast-1"
+}
+
 variable "instance_type" {
   description = "The EC2 instance type"
   type        = string
