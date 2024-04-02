@@ -33,7 +33,7 @@ resource "aws_instance" "ec2_instance" {
   vpc_security_group_ids = var.security_group_ids
 
   tags = {
-    Name = "EC2 Instance"
+    Name = "EC2 Instance Demo"
   }
 }
 
